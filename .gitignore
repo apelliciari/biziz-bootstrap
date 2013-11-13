@@ -39,3 +39,5 @@ nosetests.xml
 
 # virtualenv
 .venv
+
+mysql-5.5*

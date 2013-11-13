@@ -1,7 +1,20 @@
+ # -*- coding: utf-8 -*-
+
 # Django settings for biziz_bootstrap project.
+import os, sys
+from django.core.urlresolvers import reverse_lazy
+from os.path import join, dirname, abspath, normpath
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+
+PROJECT_NAME = "biziz_bootstrap"
+
+ROOT_PROJECT_INTERNAL = normpath(join(dirname(abspath(__file__)), ".."))
+ROOT_ABSOLUTE = normpath(join(ROOT_PROJECT_INTERNAL, ".."))
+
+sys.path.append(ROOT_ABSOLUTE) # così si può trovare le apps
+sys.path.append(ROOT_PROJECT_INTERNAL) # così si può trovare le apps
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
@@ -11,13 +24,13 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '',                      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': r"C:\Home\web\github\biziz-bootstrap\biziz_bootstrap.db",                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '',                      # Set to empty string for default.
+        # 'USER': 'root',
+        # 'PASSWORD': '',
+        # 'HOST': 'localhost',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+        # 'PORT': '3306',                      # Set to empty string for default.
     }
 }
 
@@ -120,6 +133,9 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'frontend',
+    'south',
+    'django_extensions'
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
