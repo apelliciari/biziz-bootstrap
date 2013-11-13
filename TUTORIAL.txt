@@ -1,0 +1,63 @@
+>> clone con github windows
+
+C:\Home\web\github\biziz-bootstrap>mkdir .venv
+
+C:\Home\web\github\biziz-bootstrap>cd .venv
+
+C:\Home\web\github\biziz-bootstrap\.venv>virtualenv --no-site-packages .
+New python executable in .\Scripts\python.exe
+Installing setuptools................done.
+Installing pip...................done.
+
+C:\Home\web\github\biziz-bootstrap\.venv>.\Scripts\activate.bat
+(.venv) C:\Home\web\github\biziz-bootstrap\.venv>pip install django
+Downloading/unpacking django
+  Downloading Django-1.6.tar.gz (6.6MB): 6.6MB downloaded
+  Running setup.py egg_info for package django
+
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+Installing collected packages: django
+  Running setup.py install for django
+
+    warning: no previously-included files matching '__pycache__' found under directory '*'
+    warning: no previously-included files matching '*.py[co]' found under directory '*'
+Successfully installed django
+Cleaning up...
+
+(.venv) C:\Home\web\github\biziz-bootstrap\.venv>pip install django-extensions
+Downloading/unpacking django-extensions
+  Downloading django-extensions-1.2.5.tar.gz (285kB): 285kB downloaded
+  Running setup.py egg_info for package django-extensions
+
+Downloading/unpacking six (from django-extensions)
+  Downloading six-1.4.1.tar.gz
+  Running setup.py egg_info for package six
+
+Installing collected packages: django-extensions, six
+  Running setup.py install for django-extensions
+
+  Running setup.py install for six
+
+Successfully installed django-extensions six
+Cleaning up...
+
+(.venv) C:\Home\web\github\biziz-bootstrap\.venv>pip install South
+Downloading/unpacking South
+  Downloading South-0.8.2.tar.gz (95kB): 95kB downloaded
+  Running setup.py egg_info for package South
+
+Installing collected packages: South
+  Running setup.py install for South
+
+Successfully installed South
+Cleaning up...
+
+(.venv) C:\Home\web\github\biziz-bootstrap\.venv>
+
+(.venv) C:\Home\web\github\biziz-bootstrap>django-admin.py startproject biziz-bootstrap
+CommandError: 'biziz-bootstrap' is not a valid project name. Please use only numbers, letters and underscores.
+
+(.venv) C:\Home\web\github\biziz-bootstrap>django-admin.py startproject biziz_bootstrap
+
+(.venv) C:\Home\web\github\biziz-bootstrap>
