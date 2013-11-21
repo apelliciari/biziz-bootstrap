@@ -9,6 +9,7 @@ class Azienda(models.Model):
     nome = models.CharField(max_length=255, null=False, blank=False)
     indirizzo = models.CharField(max_length=255)
     tags = models.ManyToManyField('Tag')
+    cancellata = models.BooleanField(default=True)
     created = CreationDateTimeField(null=True, blank=True)
     modified = ModificationDateTimeField(null=True, blank=True)
 
@@ -16,7 +17,7 @@ class Azienda(models.Model):
         db_table = 'aziende'
 
     def __unicode__(self):
-        return u"{this.nome}".format(this=self)
+        return u"{this.nome} - {this.indirizzo}".format(this=self)
 
 
 
