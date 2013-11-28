@@ -79,6 +79,6 @@ from .models import *
 #     ]
 
 
-admin.site.register(Azienda)
-admin.site.register(Prodotto)
-admin.site.register(Tag)
+# admin.site.register(Azienda)
+# admin.site.register(Prodotto)
+# admin.site.register(Tag)

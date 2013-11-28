@@ -4,9 +4,9 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns('frontend.views',
     # Examples:
-    # url(r'^$', 'biziz_bootstrap.views.home', name='home'),
+    url(r'^$', 'home', name='home'),
     # url(r'^biziz_bootstrap/', include('biziz_bootstrap.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

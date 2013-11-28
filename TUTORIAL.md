@@ -17,6 +17,9 @@ C:\Home\web\github\biziz-bootstrap\.venv>.\Scripts\activate.bat
 (.venv) C:\Home\web\github\biziz-bootstrap\.venv>pip install django-extensions
 (.venv) C:\Home\web\github\biziz-bootstrap\.venv>pip install South
 
+# installiamo MySQLDB e altri packages che hanno direttive in C tramite easy_install (del virtualenv) usando un exe scaricabile qui
+# http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
 # creiamo il progetto django
 (.venv) C:\Home\web\github\biziz-bootstrap>django-admin.py startproject biziz_bootstrap
 
