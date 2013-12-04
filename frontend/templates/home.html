@@ -1,1 +1,13 @@
-Home template file
+{% extends "skeleton.html" %}
+
+{# Home template file #}
+
+{% block 'inner_container' %}
+
+<ul>
+    {% for tag in prime_100_tags|slice:"5:15" %}
+    <li>{{ tag }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

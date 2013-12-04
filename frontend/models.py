@@ -368,7 +368,7 @@ class ProdottiTags(models.Model):
 
 class Province(models.Model):
     codprovincia = models.CharField(db_column='codProvincia', primary_key=True, max_length=50) # Field name made lowercase.
-    codregione = models.CharField(db_column='codRegione', max_length=50) # Field name made lowercase.
+    codregione = models.ForeignKey('Regioni', db_column='codRegione', max_length=50, related_name="province") # Field name made lowercase.
     nome = models.CharField(max_length=50)
     parametro = models.CharField(max_length=50, blank=True)
     class Meta:

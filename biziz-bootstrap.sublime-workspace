@@ -99,6 +99,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "frontend/views.py",
+			"settings":
+			{
+				"buffer_size": 374,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "biziz_bootstrap/biziz_bootstrap/urls.py",
+			"settings":
+			{
+				"buffer_size": 567,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "biziz_bootstrap/biziz_bootstrap/settings.py",
+			"settings":
+			{
+				"buffer_size": 6657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/templates/skeleton.html",
+			"settings":
+			{
+				"buffer_size": 8992,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/models.py",
+			"settings":
+			{
+				"buffer_size": 24982,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -152,6 +200,42 @@
 	},
 	"file_history":
 	[
+		"/C/Home/web/github/biziz-bootstrap/biziz_bootstrap/biziz_bootstrap/settings.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/templates/home.html",
+		"/C/Home/web/github/biziz-bootstrap/frontend/templates/skeleton.html",
+		"/C/Users/alessandro/Downloads/1386160141.layoutit/layoutit/src/index.html",
+		"/C/Home/web/github/biziz-bootstrap/frontend/models.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0003_auto__del_comuniitaliani__add_comuni.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0003_auto__del_comuniitaliani.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0003_auto__del_field_comuniitaliani_codprovincia__del_field_comuniitaliani_.py",
+		"/C/Home/web/github/biziz-bootstrap/dumps/biziz_bootstrap_pre_syncdb.sql",
+		"/C/Home/web/github/biziz-bootstrap/.gitignore",
+		"/C/Home/web/github/biziz-bootstrap/TUTORIAL.md",
+		"/C/Home/web/github/biziz-bootstrap/runserver.bat",
+		"/C/Users/alessandro/Dropbox/Projects/chinatown/web/models.py",
+		"/C/Users/alessandro/Dropbox/Projects/chinatown/web/views.py",
+		"/C/Users/alessandro/Dropbox/Projects/chinatown/web/__init__.py",
+		"/C/Users/alessandro/Dropbox/Projects/chinatown/manage.py",
+		"/C/Users/alessandro/Dropbox/Projects/chinatown/settings.py",
+		"/C/Users/alessandro/Dropbox/Projects/chinatown/urls.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/admin.py",
+		"/C/Home/web/github/biziz-bootstrap/mysqld-start.bat",
+		"/C/Home/web/github/biziz-bootstrap/biziz_bootstrap/biziz_bootstrap/urls.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/views.py",
+		"/C/Home/web/github/biziz-bootstrap/inspected.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0001_initial.py",
+		"/C/Home/web/github/biziz-bootstrap/requirements",
+		"/C/Home/web/github/biziz-bootstrap/.venv/Lib/distutils/distutils.cfg",
+		"/C/Home/web/github/biziz-bootstrap/.venv/build/MySQL-python/setup_windows.py",
+		"/C/Home/web/django-watch-the-series/venv/Lib/distutils/distutils.cfg",
+		"/C/Home/django-great-slotting-adventure/venv/Lib/distutils/distutils.cfg",
+		"/C/Home/web/sanrio-website-specification/data/pages/content_manager.txt",
+		"/C/Home/web/sanrio-website-specification/data/pages/append-backlinks.py",
+		"/C/Home/web/sanrio-website-specification/data/pages/contest-media.txt",
+		"/C/Home/web/sanrio-website-specification/data/pages/contest-controllo-contenuti.txt",
+		"/C/Home/web/sanrio-website-specification/data/pages/greenbox.txt",
+		"/C/Home/web/sanrio-website-specification/data/pages/contest.txt",
+		"/C/Home/web/github/biziz-bootstrap/TUTORIAL.txt",
 		"//savana/iab/htdocs/_adesione.php",
 		"/C/Home/web/geco-software/apache/logs/access.log",
 		"/C/Home/web/geco-software/apache/logs/error.log",
@@ -243,43 +327,7 @@
 		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/form/datetime.class.php",
 		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/externals/phpexcel/Classes/PHPExcel/Calculation/DateTime.php",
 		"/C/Users/alessandro/Desktop/rsync furla staging2 immagini.txt",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/models/prodotti/attivazione_collections.model.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/excel_mask.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/general_importer.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/sql/delete.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/import/configurations/attivazione_collections.class.php",
-		"/C/vhosts_generated/furla-branch3-4_dev2-2013-02-26.15-01.txt",
-		"/C/vhosts_generated/greenshop.yml",
-		"/C/Users/alessandro/AppData/Local/Temp/fz3temp-1/SPED007314.ok",
-		"/C/Users/alessandro/AppData/Local/Temp/fz3temp-1/EVAS002220.ok",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/temp/tests.controller.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/temp/scripts.controller.php",
-		"//houston/Furla_Backend_Dev3/htdocs/gu-admin/scripts/find_codici_ordine_ups.php",
-		"/C/Users/alessandro/Desktop/qvd/2716.ALL.risposta.1362160812.xml",
-		"/C/Users/alessandro/Desktop/qvd/2721.USA.risposta.1362233102.xml",
-		"//houston/Labs_Webranking/htdocs/svn-storyteller/libraries.py",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/migrations/20130218095756_trunk_promo_codice_unico_utilizzo_unico_per_mail.migration",
-		"//houston/Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/general_importer.class.php",
-		"/C/Home/vhost_generator/compile.bat",
-		"/C/Home/vhost_generator/warnspec.txt",
-		"/C/Home/vhost_generator/config.yml",
-		"/C/Users/alessandro/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
-		"//houston/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/testi.yml",
-		"//houston/Furla_Backend_Dev3/htdocs/gu-admin/libraries/config/conf.class.php",
-		"//houston/Furla_Backend_Dev3/htdocs/gu-admin/modules/texts/questions.controller.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/tests/php_excel_test.php",
-		"/S/capi-area/Alle - Deployment.txt",
-		"/C/Users/alessandro/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/tests/__init__.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/products_seasons_io.controller.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/product_season_importer.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/products.yml",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/veri_materiali_traduzione.yml",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/tasselli_traduzione.yml",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/products_categories_collections_io.controller.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/modules/io/products_categories_io.controller.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/product_categories_importer.class.php",
-		"/C/Users/alessandro/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings"
+		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/models/prodotti/attivazione_collections.model.php"
 	],
 	"find":
 	{
@@ -305,6 +353,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Tags",
+			"managed = False",
 			"adesioni@iab.it",
 			"16",
 			"json",
@@ -430,9 +480,7 @@
 			"password",
 			"699898",
 			"preview",
-			"user_auth",
-			"this->l",
-			"get_traduzioni"
+			"user_auth"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -440,6 +488,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"managed = True",
 			",",
 			"\",u\"",
 			":FDS_FTP_PASS",
@@ -455,8 +504,317 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "frontend/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 60
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "biziz_bootstrap/biziz_bootstrap/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 20
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "biziz_bootstrap/biziz_bootstrap/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3796,
+								3796
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 49
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "frontend/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 32
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "frontend/templates/skeleton.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8961,
+								8961
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"_is_repeating": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"last_character_search": "/",
+								"last_character_search_forward": true,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 38
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 2878.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "frontend/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22141,
+								22144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 7
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 7721.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -494,7 +852,7 @@
 	"project": "biziz-bootstrap.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -502,6 +860,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"models.py",
+				"frontend\\models.py"
+			],
+			[
+				"settin",
+				"biziz_bootstrap\\biziz_bootstrap\\settings.py"
+			],
+			[
+				"urls",
+				"biziz_bootstrap\\biziz_bootstrap\\urls.py"
+			],
+			[
+				"view",
+				"frontend\\views.py"
+			],
+			[
+				"models",
+				"frontend\\models.py"
+			],
+			[
+				"settings",
+				"biziz_bootstrap\\biziz_bootstrap\\settings.py"
+			],
+			[
+				"setting",
+				"biziz_bootstrap\\biziz_bootstrap\\settings.py"
+			],
 			[
 				"carre",
 				"system\\application\\views\\angular-templates\\carrello_nuova_fattura.php"
@@ -985,34 +1371,6 @@
 			[
 				"sql.",
 				"htdocs/gu-admin/tmp/sql.log"
-			],
-			[
-				"promozione.",
-				"htdocs/gu-admin/models/promozioni/promozione.model.php"
-			],
-			[
-				"prodot",
-				"htdocs/gu-admin/modules/io/prodotti_promozioni.yml"
-			],
-			[
-				"fixe",
-				"Furla_Backend_Dev3/htdocs/gu-admin/modules/io/fixed_length.controller.php"
-			],
-			[
-				"fds.control",
-				"Furla_Backend_Dev3/analysis/cleaned-repo/modules/io/fds.controller.php"
-			],
-			[
-				"column",
-				"Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/excel_column.class.php"
-			],
-			[
-				"categoria.model",
-				"Furla_Backend_Dev3/htdocs/gu-admin/models/prodotti/categoria.model.php"
-			],
-			[
-				"action.cl",
-				"Furla_Backend_Dev3/htdocs/gu-admin/libraries/io/actions/action.class.php"
 			]
 		],
 		"width": 0.0
@@ -1022,6 +1380,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\web\\django-deebate\\django-deebate.sublime-workspace"
+			],
 			[
 				"vang",
 				"/C/Home/web/vagrant-projects/nginx-migration/nginx-migration.sublime-project"
@@ -1135,10 +1497,6 @@
 				"//houston/piquadro/dev3.piquadro.local/dev3.piquadro.local.sublime-project"
 			],
 			[
-				"",
-				"//houston/Furla_Backend_Dev/htdocs/gdb-webranking-it.sublime-project"
-			],
-			[
 				"dev3 branch",
 				"//houston/Furla_Branch_Dev3/furla-branch-dev3.sublime-project"
 			],
@@ -1237,8 +1595,8 @@
 	{
 		"vintage":
 		{
-			"_cmdline_cd": "C:\\Users\\alessandro\\Dropbox\\Software\\Sublime Text Build 3047 x64",
-			"last_buffer_search": "var_dump"
+			"_cmdline_cd": "C:\\Home\\web\\github\\biziz-bootstrap\\frontend",
+			"last_buffer_search": "class Tag"
 		}
 	},
 	"show_minimap": true,

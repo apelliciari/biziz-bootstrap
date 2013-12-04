@@ -41,3 +41,6 @@ nosetests.xml
 .venv
 
 mysql-5.5*
+dumps
+*.7z
+*.sql
