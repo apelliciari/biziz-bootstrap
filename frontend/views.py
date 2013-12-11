@@ -13,5 +13,7 @@ def home(request):
 
     return render_to_response('home.html', locals(), RequestContext(request))
 
+def skeleton(request):
+    return render_to_response('skeleton.html', locals(), RequestContext(request))
 
 

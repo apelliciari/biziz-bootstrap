@@ -7,6 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('frontend.views',
     # Examples:
     url(r'^$', 'home', name='home'),
+    url(r'^skeleton/$', 'skeleton', name='skeleton'),
     # url(r'^biziz_bootstrap/', include('biziz_bootstrap.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
