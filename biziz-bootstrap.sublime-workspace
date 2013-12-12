@@ -100,18 +100,42 @@
 	"buffers":
 	[
 		{
-			"file": "frontend/views.py",
+			"file": "frontend/templates/home.html",
 			"settings":
 			{
-				"buffer_size": 374,
+				"buffer_size": 807,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/models.py",
+			"settings":
+			{
+				"buffer_size": 25179,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "course_plan.md",
+			"settings":
+			{
+				"buffer_size": 428,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "biziz_bootstrap/biziz_bootstrap/urls.py",
 			"settings":
 			{
-				"buffer_size": 567,
+				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/views.py",
+			"settings":
+			{
+				"buffer_size": 719,
 				"line_ending": "Unix"
 			}
 		},
@@ -120,30 +144,6 @@
 			"settings":
 			{
 				"buffer_size": 6657,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "frontend/templates/home.html",
-			"settings":
-			{
-				"buffer_size": 203,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "frontend/templates/skeleton.html",
-			"settings":
-			{
-				"buffer_size": 8992,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "frontend/models.py",
-			"settings":
-			{
-				"buffer_size": 24982,
 				"line_ending": "Unix"
 			}
 		}
@@ -200,11 +200,17 @@
 	},
 	"file_history":
 	[
+		"/C/Home/web/github/biziz-bootstrap/.venv/Lib/site-packages/django/template/base.py",
+		"/C/Home/web/github/biziz-bootstrap/frontend/views.py",
+		"/C/Home/web/github/biziz-bootstrap/biziz_bootstrap/biziz_bootstrap/urls.py",
 		"/C/Home/web/github/biziz-bootstrap/biziz_bootstrap/biziz_bootstrap/settings.py",
-		"/C/Home/web/github/biziz-bootstrap/frontend/templates/home.html",
+		"/C/Home/web/github/biziz-bootstrap/frontend/templates/azienda.html",
 		"/C/Home/web/github/biziz-bootstrap/frontend/templates/skeleton.html",
-		"/C/Users/alessandro/Downloads/1386160141.layoutit/layoutit/src/index.html",
 		"/C/Home/web/github/biziz-bootstrap/frontend/models.py",
+		"/C/Home/web/github/biziz-bootstrap/course_plan.md",
+		"/C/Home/web/github/biziz-bootstrap/comuni_italiani.sql",
+		"/C/Home/web/github/biziz-bootstrap/frontend/templates/home.html",
+		"/C/Users/alessandro/Downloads/1386160141.layoutit/layoutit/src/index.html",
 		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0003_auto__del_comuniitaliani__add_comuni.py",
 		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0003_auto__del_comuniitaliani.py",
 		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0003_auto__del_field_comuniitaliani_codprovincia__del_field_comuniitaliani_.py",
@@ -220,8 +226,6 @@
 		"/C/Users/alessandro/Dropbox/Projects/chinatown/urls.py",
 		"/C/Home/web/github/biziz-bootstrap/frontend/admin.py",
 		"/C/Home/web/github/biziz-bootstrap/mysqld-start.bat",
-		"/C/Home/web/github/biziz-bootstrap/biziz_bootstrap/biziz_bootstrap/urls.py",
-		"/C/Home/web/github/biziz-bootstrap/frontend/views.py",
 		"/C/Home/web/github/biziz-bootstrap/inspected.py",
 		"/C/Home/web/github/biziz-bootstrap/frontend/migrations/0001_initial.py",
 		"/C/Home/web/github/biziz-bootstrap/requirements",
@@ -323,11 +327,7 @@
 		"//houston/furla/dev2.furla-backend-branch2.local/htdocs/gu-admin/mylog/OUT/OR_U31130O120180911117749600.txt",
 		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/models/crm/utente.model.php",
 		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/html/element.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/presentation/graphic_element.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/form/datetime.class.php",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/externals/phpexcel/Classes/PHPExcel/Calculation/DateTime.php",
-		"/C/Users/alessandro/Desktop/rsync furla staging2 immagini.txt",
-		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/models/prodotti/attivazione_collections.model.php"
+		"//HOUSTON/Furla_Backend_Dev3/htdocs/gu-admin/libraries/presentation/graphic_element.class.php"
 	],
 	"find":
 	{
@@ -509,24 +509,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "frontend/views.py",
+					"file": "frontend/templates/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 374,
+						"buffer_size": 807,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								294,
+								294
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"highlight_line": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"vintage":
 							{
 								"_bottom_top": false,
@@ -549,7 +550,7 @@
 								"user_action_input": null,
 								"user_input": null,
 								"user_motion_input": null,
-								"xpos": 60
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
@@ -560,181 +561,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "biziz_bootstrap/biziz_bootstrap/urls.py",
+					"file": "frontend/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 567,
+						"buffer_size": 25179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 20
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "biziz_bootstrap/biziz_bootstrap/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3796,
-								3796
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"vintage":
-							{
-								"_bottom_top": false,
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 49
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 1188.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "frontend/templates/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"vintage":
-							{
-								"_bottom_top": false,
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 32
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "frontend/templates/skeleton.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8961,
-								8961
+								7007,
+								7007
 							]
 						],
 						"settings":
 						{
 							"highlight_line": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
 							"vintage":
 							{
 								"_bottom_top": false,
-								"_is_repeating": false,
 								"action": null,
 								"action_digits":
 								[
@@ -742,7 +590,7 @@
 								"cancel_action": false,
 								"expecting_register": false,
 								"expecting_user_input": false,
-								"last_character_search": "/",
+								"last_character_search": ")",
 								"last_character_search_forward": true,
 								"mode": 2,
 								"motion": null,
@@ -756,30 +604,131 @@
 								"user_action_input": null,
 								"user_input": null,
 								"user_motion_input": null,
-								"xpos": 38
+								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 2878.0,
+						"translation.y": 2483.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "frontend/models.py",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "course_plan.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 24982,
+						"buffer_size": 428,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22141,
-								22144
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 17
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "biziz_bootstrap/biziz_bootstrap/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"_bottom_top": false,
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "frontend/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
 							]
 						],
 						"settings":
@@ -806,11 +755,61 @@
 								"user_action_input": null,
 								"user_input": null,
 								"user_motion_input": null,
-								"xpos": 7
+								"xpos": 53
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 7721.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "biziz_bootstrap/biziz_bootstrap/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -861,27 +860,47 @@
 		"selected_items":
 		[
 			[
-				"models.py",
-				"frontend\\models.py"
-			],
-			[
-				"settin",
+				"settings.py",
 				"biziz_bootstrap\\biziz_bootstrap\\settings.py"
 			],
 			[
-				"urls",
-				"biziz_bootstrap\\biziz_bootstrap\\urls.py"
+				"settings",
+				"biziz_bootstrap\\biziz_bootstrap\\settings.py"
 			],
 			[
 				"view",
 				"frontend\\views.py"
 			],
 			[
+				"base.py",
+				".venv\\Lib\\site-packages\\django\\template\\base.py"
+			],
+			[
+				"urls",
+				"biziz_bootstrap\\biziz_bootstrap\\urls.py"
+			],
+			[
 				"models",
 				"frontend\\models.py"
 			],
 			[
-				"settings",
+				"views",
+				"frontend\\views.py"
+			],
+			[
+				"urls.py",
+				"biziz_bootstrap\\biziz_bootstrap\\urls.py"
+			],
+			[
+				"skel",
+				"frontend\\templates\\skeleton.html"
+			],
+			[
+				"models.py",
+				"frontend\\models.py"
+			],
+			[
+				"settin",
 				"biziz_bootstrap\\biziz_bootstrap\\settings.py"
 			],
 			[
@@ -1351,26 +1370,6 @@
 			[
 				"status_or",
 				"htdocs/gu-admin/modules/crm/status_orders.controller.php"
-			],
-			[
-				"ordine.mod",
-				"htdocs/gu-admin/models/crm/ordine.model.php"
-			],
-			[
-				"fds.",
-				"htdocs/gu-admin/modules/io/fds.controller.php"
-			],
-			[
-				"db",
-				"htdocs/gu-admin/libraries/db.class.php"
-			],
-			[
-				"forei",
-				"htdocs/gu-admin/libraries/io/actions/foreign.class.php"
-			],
-			[
-				"sql.",
-				"htdocs/gu-admin/tmp/sql.log"
 			]
 		],
 		"width": 0.0
@@ -1596,7 +1595,7 @@
 		"vintage":
 		{
 			"_cmdline_cd": "C:\\Home\\web\\github\\biziz-bootstrap\\frontend",
-			"last_buffer_search": "class Tag"
+			"last_buffer_search": "class Azien"
 		}
 	},
 	"show_minimap": true,

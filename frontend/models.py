@@ -1,6 +1,7 @@
 from django.db import models
 from django_extensions.db.fields \
     import CreationDateTimeField, ModificationDateTimeField
+from django.core.urlresolvers import reverse
 
 # modelli sqlite
 
@@ -159,6 +160,9 @@ class Aziende(models.Model):
     def __unicode__(self):
         return u"{this.nome}".format(this=self)
 
+    def url(self):
+        return reverse('azienda', args=[self.parametro])
+
 
 
 class AziendeContatti(models.Model):
@@ -269,6 +273,10 @@ class News(models.Model):
     class Meta:
         managed = True
         db_table = 'news'
+
+    def url(self):
+        return reverse('news', args=[self.parametro])
+
 
 class NewsTagOccorrenze(models.Model):
     idtag = models.ForeignKey('Tags', db_column='idTag', primary_key=True) # Field name made lowercase.

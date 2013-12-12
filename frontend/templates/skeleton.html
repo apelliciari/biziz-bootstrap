@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap 3, from LayoutIt!</title>
+    <title>Biziz Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,6 +38,7 @@
     {% block '_container' %}
         <div class="row clearfix">
             <div class="col-md-12 column">
+            {% block 'nav' %}
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -45,7 +46,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                        </button> <a class="navbar-brand" href="#">Brand {{ pippo }} </a>
+                        </button> <a class="navbar-brand" href="#">Biziz (Bootstrapped)</a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -114,6 +115,9 @@
                     </div>
 
                 </nav>
+                {% endblock %}
+
+                {% block 'content' %}
                 <div class="jumbotron">
                     <h1>
                         Hello, world!
@@ -186,6 +190,7 @@
                         </ul>
                     </div>
                 </div>
+                {% endblock %}
             </div>
         </div>
         {% endblock %}

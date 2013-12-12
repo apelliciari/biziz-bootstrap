@@ -8,12 +8,16 @@ from .models import *
 
 
 def home(request):
-
-    prime_100_tags = Tags.objects.all().order_by('tag')[0:100]
-
+    ultime_aziende = Aziende.objects.all().order_by('-data_inserimento')[:10]
     return render_to_response('home.html', locals(), RequestContext(request))
 
 def skeleton(request):
     return render_to_response('skeleton.html', locals(), RequestContext(request))
+
+def azienda(request, parametro):
+    return render_to_response('azienda.html', locals(), RequestContext(request))
+
+def news(request, parametro):
+    return render_to_response('azienda.html', locals(), RequestContext(request))
 
 

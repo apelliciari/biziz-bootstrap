@@ -1,13 +1,33 @@
 {% extends "skeleton.html" %}
 
-{# Home template file #}
 
-{% block 'inner_container' %}
+{% block 'content' %}
 
-<ul>
-    {% for tag in prime_100_tags|slice:"5:15" %}
-    <li>{{ tag }}</li>
-    {% endfor %}
-</ul>
+<div class="row clearfix">
+    <div class="col-md-6 column">
+        <h3>
+            Ultime aziende inserite
+        </h3>
+        <ul>
+        {% for azienda in ultime_aziende %}
+            <li>
+                <p><a href="{{ azienda.url }}">{{ azienda.nome }}</a></p>
+                <p><a href="{{ azienda.url }}"> {{ azienda.comune }}, {{ azienda.provincia }}</a></p>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-6 column">
+        <h3>
+            Ultime news inserite
+        </h3>
+        <ul>
+        {% for news in ultime_news %}
+            <li>
+                <p><a href="{{ news.url }}">{{ news.nome }}</a></p>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
 
-{% endblock %}
+    {% endblock %}
