@@ -1,7 +1,7 @@
 
 settings
 models
-views
+views (get_object_or_404)
 templates
 context processors
 middlewares
