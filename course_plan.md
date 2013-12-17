@@ -1,6 +1,5 @@
-
-settings
-models
+* settings
+* models
 views (get_object_or_404)
 templates
 context processors
